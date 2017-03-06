@@ -8,7 +8,7 @@
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbr: <http://dbpedia.org/resource/>
 
-SELECT DISTINCT ?s 
+SELECT DISTINCT ?s ?p
 WHERE { 
-?s dbo:musicalArtist dbr:The_Beatles 
+?s dbo:musicalArtist ?p 
 }
